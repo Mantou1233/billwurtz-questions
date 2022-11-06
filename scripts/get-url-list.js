@@ -18,7 +18,7 @@ async function fn() {
 		}
 		i = 1;
 	}
-	await fs.writeFile("d.json", JSON.stringify(a));
+	await fs.writeFile("./scripts/url.json", JSON.stringify(a));
 }
 fn();
 
